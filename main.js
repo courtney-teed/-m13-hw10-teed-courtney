@@ -17,6 +17,6 @@ for (let i = 0; i < button.length; i++) {
 
 $(document).ready(function() {
 	$('button').click(function() {
-
+		$('section').slideToggle();
 	});
 });
