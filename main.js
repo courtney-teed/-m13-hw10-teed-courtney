@@ -1,4 +1,7 @@
-//JavaScript Functionalit Part 1 Goes Here. Comment it all out once finsihed.
+//JavaScript Functionality Part 1 Goes Here. Comment it all out once finished.
+
+var section = document.getElementByTagName('section');
+var button = document.getElementByTagName('button');
 
 
 
