@@ -7,5 +7,7 @@ function slideToggle() {
 	section.classList.toggle('hide');
 };
 
+button[i].addEventListener('click', slideToggle);
+
 
 //jQuery functionality will go here. Make sure to iclude the document.ready function.
