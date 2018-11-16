@@ -5,7 +5,7 @@ var section = document.getElementsByTagName('section');
 var button = document.getElementsByTagName('button');
 
 function slideToggle() {
-	this.classList.toggle('hide');
+	this.nextElementSibling.classList.toggle('hide');
 };
 
 for (let i = 0; i < button.length; i++) {
